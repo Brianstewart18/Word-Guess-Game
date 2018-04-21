@@ -1,0 +1,105 @@
+body {
+    background-image: url(../images/flag.JPG);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header {
+    border: 3px solid black;
+    background-color: white;
+    font-size: 100px;
+    text-align: center;
+    margin: 50px auto;
+    height: 300px;
+    width: 45%
+}
+.theme {
+    font-size: 40px;
+    text-align: center;
+    margin: 0px auto;
+    height: 300px;
+    width: 80%
+}
+.underScore {
+    font-size: 100px;
+    text-align: center;
+    /* margin: 50px 50px 0px 50px; */
+    height: 300px;
+    width: 45%;
+    position: relative;
+    /* float: left; */
+    bottom: 57%;
+}
+.instructions {
+    font-size: 40px;
+    text-align: center;
+    margin: 0px auto;
+
+}
+.correct {
+    border: 3px solid black;
+    background-color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 50px auto;
+    height: 300px;
+    width: 80%;
+}
+.wrong {
+    border: 3px solid black;
+    background-color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 50px 50px 0px 25px;
+    height: 300px;
+    width: 45%;
+    float: left;
+    
+}
+.rightGuess {
+    font-size: 35px;
+    text-align: center;
+    margin: 15px auto;
+}
+.wrongGuess {
+    font-size: 60px;
+    text-align: center;
+    margin: 20px auto;
+}
+.counter {
+    font-size: 40px;
+    text-align: center;
+    margin: 0px auto;
+    height: 300px;
+    width: 80%;
+}
+.underScoreContainer {
+    border: 3px solid black;
+    background-color: white;
+    font-size: 100px;
+    text-align: center;
+    margin: 50px 50px 0px 50px;
+    height: 300px;
+    width: 45%;
+    float: left;
+}
+span.livesCounter {
+    font-size: 40px;
+    text-align: center;
+    margin: 50px 50px 0px 50px;
+    height: 300px;
+    width: 45%;
+    position: relative;
+    /* float: left; */
+    bottom: 50%;
+}
+span.lives {
+    font-size: 40px;
+    text-align: center;
+    /* margin: 50px 50px 0px 50px; */
+    height: 300px;
+    width: 45%;
+    position: initial;
+    /* float: left; */
+    bottom: 50%;
+}
